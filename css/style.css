@@ -55,9 +55,9 @@
   --heading       : #010d4c;
   --prime-one     : #0066FF;
   --prime-two     : #FF7A41;
-  --prime-three   : #913BFF;
-  --prime-four    : #7736FF;
-  --prime-five    : #6B25FF;
+  --prime-three   : #ff2c00;
+  --prime-four    : #ff765b;
+  --prime-five    : #ff4520;
   --gr-one        : linear-gradient(90.43deg, #FF8386 10.07%, #FF171D 99.78%);
 }
 ::selection {
