@@ -61,13 +61,13 @@
 	font-size: 18px;
 	letter-spacing: -0.2px;
 	line-height: initial;
-	color: #02274a;
+	color: #ff2c00;
 	padding: 15px 0;
 	margin: 0 26px;
 	position: relative;
 }
 .navbar .navbar-nav .nav-item.active .nav-link,
-.navbar .navbar-nav .nav-item:hover .nav-link {color: var(--prime-one);}
+.navbar .navbar-nav .nav-item:hover .nav-link {color: var(--prime-three);}
 .navbar .dropdown-menu .dropdown-item {
 	font-size: 17px;
 	padding:0 15px;

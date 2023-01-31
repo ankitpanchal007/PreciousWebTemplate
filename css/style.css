@@ -193,6 +193,10 @@ body {
 .border-top {border-top: 1px solid #f1f1f1 !important;}
 .border-bottom {border-bottom: 1px solid #f1f1f1 !important;}
 /*^^^^^^^^^^^^^^^^^^^^ Scroll Top ^^^^^^^^^^^^^^^^^^^^^*/
+
+.head_orange{
+  color: var(--prime-three);
+}
 .scroll-top {
   width:35px;
   height:35px;
@@ -536,7 +540,7 @@ body .btn-eight {
   transition: all 0.3s ease-in-out;
 }
 body .btn-eight:hover {
-  background: var(--prime-one);
+  background: var(--prime-three);
 }
 /*^^^^^^^^^^^^^^^^^^^^^^^ Pagination ^^^^^^^^^^^^^^^^^^^^^^*/
 .page-pagination-one ul {margin: 0 -6px;}
@@ -713,7 +717,7 @@ body .btn-eight:hover {
 .theme-main-menu .lang-dropdown .dropdown-item:hover {background: var(--prime-one); color: #fff;}
 .theme-main-menu.theme-menu-two .login-btn {margin-right: 80px;}
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Menu Three ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.theme-menu-three .navbar .navbar-nav .nav-link {color: #fff;}
+.theme-menu-three .navbar .navbar-nav .nav-link {color: rgb(155, 44, 44);}
 .theme-menu-three .navbar .navbar-nav .nav-item.active .nav-link,
 .theme-menu-three .navbar .navbar-nav .nav-item:hover .nav-link {color: var(--prime-two);}
 .theme-main-menu.theme-menu-three .menu-search-btn,
@@ -757,7 +761,7 @@ body .btn-eight:hover {
   border-radius: 9px;
   transition: all 0.3s ease-in-out;
 }
-.theme-main-menu .send-msg-btn:hover {background: var(--prime-one);}
+.theme-main-menu .send-msg-btn:hover {background: var(--prime-three);}
 .theme-main-menu.theme-menu-four .menu-search-btn {color: var(--prime-three);}
 .theme-main-menu.theme-menu-four .menu-search-btn:hover {
   color: #fff;
@@ -1976,11 +1980,11 @@ body .btn-eight:hover {
 .block-style-four h5 {
   font-family: 'gorditamedium';
   font-size: 24px;
-  color: var(--heading);
+  color: var(--prime-three);
   margin: 52px 0 30px;
   transition: all 0.3s ease-in-out;
 }
-.block-style-four h5:hover {color: var(--prime-one);}
+.block-style-four h5:hover {color: var(--prime-three);}
 .block-style-four p {font-size: 17px; line-height: 30px; margin-bottom: 24px;}
 .block-style-four .more-btn {
   position: absolute;
@@ -2342,7 +2346,7 @@ body .btn-eight:hover {
   padding: 23px 20px 23px 35px;
   box-shadow: none;
   border-radius: 0;
-  color: var(--heading);
+  color: var(--prime-three);
   background: transparent;
   transition: all 0.3s ease-in-out;
 }
@@ -3310,7 +3314,7 @@ body .btn-eight:hover {
 .block-style-twelve h5 a {
   font-family: 'gorditamedium';
   font-size: 25px;
-  color: var(--heading);
+  color: var(--prime-three);
   margin: 30px 0 8px;
 }
 .block-style-twelve h5 a:hover {text-decoration: underline;}
@@ -3434,6 +3438,7 @@ body .btn-eight:hover {
 .block-style-thirteen .list-item li h6 {
   font-family: 'gorditamedium';
   font-size: 19px;
+  color: var(--prime-three);
 }
 .block-style-thirteen .list-item .numb {
   width: 45px;
@@ -3910,9 +3915,9 @@ body .btn-eight:hover {
   padding: 0 38px;
   line-height: 60px;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.1);
+  background: #000;
 }
-.fancy-short-banner-five .msg-btn:hover {background: var(--prime-two);}
+.fancy-short-banner-five .msg-btn:hover {background: #000;}
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Twenty Five ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-twentyFive {z-index: 3;}
 /*^^^^^^^^^^^^^^^^^^^^^ Service Details ^^^^^^^^^^^^^^^^^^^^^^^^*/
@@ -4261,6 +4266,12 @@ body .btn-eight:hover {
   line-height: 24px;
   color: rgba(0, 40, 78, 0.5);
   margin: 0;
+}
+.block-style-seventeen h3 {
+  color: var(--prime-three);
+}
+.block-style-seventeen h5 {
+  color: var(--prime-three);
 }
 .pr-details-one ul.list-item li {
   font-size: 18px;
